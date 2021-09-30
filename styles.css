@@ -261,3 +261,24 @@ nav ul li a {
 .section2 .text-wrapper a {
   margin-top: 5%;
 }
+
+.section3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.program-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ###### FALTA CENTRAR OS PROGRAMAS ####### */
+
+.section3 .program1,
+.program2,
+.program3 {
+  float: left;
+  display: inline-block;
+  margin: 5% 5%;
+}
