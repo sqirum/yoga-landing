@@ -282,3 +282,32 @@ nav ul li a {
   display: inline-block;
   margin: 5% 5%;
 }
+
+.section4 {
+  background-color: white;
+  background: url(img/section4-bg.jpg) no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+
+.section4 .text-wrapper {
+  position: absolute;
+  width: 35%;
+  left: 5%;
+  top: 20%;
+}
+
+.section4 .text-wrapper p {
+  margin-top: 5%;
+}
+.section4 .text-wrapper a {
+  margin-top: 5%;
+}
+
+.section4 img {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
