@@ -352,17 +352,3 @@ nav ul li a {
 .section5 .text-wrapper a {
   margin-top: 5%;
 }
-
-.section6 {
-  background: url(img/section6-bg.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
-.section6 h2,
-.section6 p {
-  text-align: center;
-}
-
-.section6 {
-}
