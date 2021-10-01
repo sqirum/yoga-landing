@@ -188,7 +188,6 @@ header::after {
 }
 
 header nav {
-  display: inline-block;
   float: right;
   text-align: right;
 }
@@ -279,7 +278,6 @@ nav ul li a {
 .program2,
 .program3 {
   float: left;
-  display: inline-block;
   margin: 5% 5%;
 }
 
