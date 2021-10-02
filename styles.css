@@ -188,7 +188,6 @@ header::after {
 }
 
 header nav {
-  display: inline-block;
   float: right;
   text-align: right;
 }
@@ -279,7 +278,6 @@ nav ul li a {
 .program2,
 .program3 {
   float: left;
-  display: inline-block;
   margin: 5% 5%;
 }
 
@@ -353,18 +351,4 @@ nav ul li a {
 }
 .section5 .text-wrapper a {
   margin-top: 5%;
-}
-
-.section6 {
-  background: url(img/section6-bg.jpg) no-repeat;
-  width: 100%;
-  background-size: cover;
-}
-
-.section6 h2,
-.section6 p {
-  text-align: center;
-}
-
-.section6 {
 }
