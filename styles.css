@@ -505,3 +505,81 @@ nav ul li a {
 .section8 form a:hover {
   cursor: pointer;
 }
+
+footer {
+  background-color: #444e5a;
+  color: white;
+}
+
+.footer-wrapper {
+  width: 80%;
+  margin: 0 10%;
+  padding: 5% 0;
+}
+
+.footer-wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+footer h5 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+footer h6 {
+  font-weight: bold;
+  margin-bottom: 1.3em;
+}
+
+footer p {
+  color: white;
+}
+
+footer ul li a {
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+footer .company {
+  float: left;
+  margin: 0 70px;
+  width: 20%;
+}
+footer .sitemap {
+  float: left;
+  margin: 0 70px;
+}
+footer .lorem-ipsum {
+  float: left;
+  margin: 0 70px;
+}
+footer .site-amet {
+  float: left;
+  margin: 0 70px;
+}
+footer .additionalInfo {
+  float: right;
+}
+
+footer .additionalInfo img {
+  margin-bottom: 20px;
+}
+
+footer .social-icons {
+  margin-top: 20px;
+}
+
+footer .social-icons ul li {
+  display: inline-block;
+}
+footer .social-icons ul li:nth-child(2) {
+  margin-left: 25px;
+}
+footer .social-icons ul li:nth-child(3) {
+  margin-left: 25px;
+}
