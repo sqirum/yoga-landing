@@ -411,7 +411,8 @@ nav ul li a {
 }
 
 .section7 .section-wrapper {
-  margin-left: 15%;
+  width: 75%;
+  margin: 0 12.5%;
 }
 
 .section7::after {
@@ -431,5 +432,76 @@ nav ul li a {
 }
 
 .section7 .text-wrapper p {
-  margin: 50px 0;
+  margin: 40px 0;
+}
+
+.section8 {
+  background: url(img/section8-bg.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.section8::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section8 .out-div {
+  width: 70%;
+  margin: 0 15%;
+}
+
+.section8 h2 {
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 0.5em;
+}
+
+.section8 p {
+  text-align: center;
+}
+
+.section8 form {
+  padding: 3% 0;
+}
+
+.section8 form input {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  text-indent: 25px;
+  font-size: 14px;
+  background-color: #efefef;
+  border: 2px solid #b0b0b0;
+  outline: none;
+}
+
+.section8 form textarea {
+  width: 100%;
+  margin: 10px 0;
+  margin-bottom: 40px;
+  text-indent: 25px;
+  padding-top: 15px;
+  font-size: 14px;
+  background-color: #efefef;
+  border: 2px solid #b0b0b0;
+  outline: none;
+}
+.section8 form a {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #e6c8c3;
+  text-transform: uppercase;
+  border: none;
+  color: #484f5b;
+  font-weight: bold;
+  outline: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.section8 form a:hover {
+  cursor: pointer;
 }
