@@ -352,3 +352,55 @@ nav ul li a {
 .section5 .text-wrapper a {
   margin-top: 5%;
 }
+
+.section6 {
+  background: url(img/section6-bg.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.section6::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section6 h2 {
+  text-align: center;
+  padding-top: 90px;
+  margin-bottom: 0.5em;
+}
+
+.section6 p {
+  text-align: center;
+}
+
+.section6 .card {
+  float: left;
+  width: 20%;
+  margin: 6%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 0.5px 100px rgba(0, 0, 0, 0.3);
+}
+
+.section6 .card h3 {
+  text-align: center;
+  font-size: 33px;
+  line-height: 33px;
+  font-weight: bold;
+  color: #484f5b;
+  margin: 0.5em 0;
+}
+
+.section6 .card p {
+  text-align: center;
+  font-size: 16px;
+  line-height: normal;
+  color: #484f5b;
+  margin-bottom: 40px;
+}
+
+.section6 .card img {
+  width: 100%;
+}
