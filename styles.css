@@ -404,3 +404,32 @@ nav ul li a {
 .section6 .card img {
   width: 100%;
 }
+
+.section7 {
+  background-color: #e5ccc6;
+  padding: 5% 0;
+}
+
+.section7 .section-wrapper {
+  margin-left: 15%;
+}
+
+.section7::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section7 img {
+  float: left;
+  margin-right: 5%;
+}
+
+.section7 .text-wrapper {
+  float: left;
+  width: 40%;
+}
+
+.section7 .text-wrapper p {
+  margin: 50px 0;
+}
